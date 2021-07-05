@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryAppBackend.Business.Interfaces\LibraryAppBackend.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Repository.Interfaces\LibraryAppBackend.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

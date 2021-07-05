@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryAppBackend.Business.Interfaces\LibraryAppBackend.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Business\LibraryAppBackend.Business.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Entities\LibraryAppBackend.Entities.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Repository.Interfaces\LibraryAppBackend.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Repository\LibraryAppBackend.Repository.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Transversal\LibraryAppBackend.Transversal.csproj" />
+  </ItemGroup>
+
+
+</Project>
