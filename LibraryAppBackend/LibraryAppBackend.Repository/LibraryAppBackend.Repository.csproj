@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LibraryAppBackend.Entities\LibraryAppBackend.Entities.csproj" />
     <ProjectReference Include="..\LibraryAppBackend.Repository.Interfaces\LibraryAppBackend.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Transversal\LibraryAppBackend.Transversal.csproj" />
   </ItemGroup>
 
 </Project>

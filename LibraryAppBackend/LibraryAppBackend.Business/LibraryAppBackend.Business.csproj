@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LibraryAppBackend.Business.Interfaces\LibraryAppBackend.Business.Interfaces.csproj" />
     <ProjectReference Include="..\LibraryAppBackend.Repository.Interfaces\LibraryAppBackend.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\LibraryAppBackend.Transversal\LibraryAppBackend.Transversal.csproj" />
   </ItemGroup>
 
 </Project>

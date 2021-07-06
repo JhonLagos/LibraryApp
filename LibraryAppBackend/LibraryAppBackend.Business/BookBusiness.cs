@@ -1,8 +1,10 @@
 ﻿using LibraryAppBackend.Business.Interfaces;
 using LibraryAppBackend.Entities;
 using LibraryAppBackend.Repository.Interfaces;
+using LibraryAppBackend.Transversal.Filters;
 using LibraryAppBackend.Transversal.Response;
 using System;
+using System.Collections.Generic;
 using System.Net;
 
 namespace LibraryAppBackend.Business
@@ -51,6 +53,11 @@ namespace LibraryAppBackend.Business
             {
                 return new ResultWrapper(HttpStatusCode.InternalServerError, ex.ToString());
             }
+        }
+
+        public List<Book> Search(BookFilters filters)
+        {
+            return _repository.Search(filters);
         }
     }
 }
